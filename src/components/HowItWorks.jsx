@@ -4,7 +4,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { animateWithGsap } from "../utils/animations";
 
-const HowitWorks = () => {
+const HowItWorks = () => {
   const videoRef = useRef();
 
   useGSAP(() => {
@@ -102,4 +102,4 @@ const HowitWorks = () => {
   );
 };
 
-export default HowitWorks;
+export default HowItWorks;
